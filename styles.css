@@ -1,15 +1,66 @@
-/* styles.css */
-body { 
-    /* set a light gray background color and a default font */
-    background-color: linear-gradient(to right, #6a3093, #a044ff);
-    font-family: Arial, sans-serif; /* sets a clear, moder font for better readability */
-    color:antiquewhite ; /* sets a dark text color for contrast against the light background */
-    margin: 0; /* removes default margin */
-    padding: 0; /* removes default padding */
-    display: flex; /* enables flexbox layout */
-    justify-content: center; /* centers content horizontally */ 
-    align-items: center; /* centers content vertically */
-    height: 100vh; /* makes the body take full viewport height */
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Apply a background and font for the whole page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #74ABE2, #5563DE);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+/* Style for main heading */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Style for subheading */
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f4f4f4;
+}
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background and font for the whole page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #74ABE2, #5563DE);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Style for main heading */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Style for subheading */
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f4f4f4;
+}
